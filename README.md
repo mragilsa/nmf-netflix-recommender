@@ -1,10 +1,10 @@
 # NMF Netflix Recommender System
 
-This repository contains a Python notebook implementing a **Netflix movie recommendation system** using **Non-negative Matrix Factorization (NMF)**.
+This repository contains a Python notebook implementing a Netflix movie recommendation system using Non-negative Matrix Factorization (NMF).
 
-## **Setup & Dataset**
+## Setup & Dataset
 
-1. **Clone repository:**
+1. Clone repository:
 ```bash
 git clone https://github.com/mragilsa/nmf-netflix-recommender.git
 ```
@@ -12,11 +12,11 @@ git clone https://github.com/mragilsa/nmf-netflix-recommender.git
 cd nmf-netflix-recommender
 ```
 
-2. **Download the dataset from Kaggle:**  
+2. Download the dataset from Kaggle: 
    - [Kaggle link](https://www.kaggle.com/datasets/rishitjavia/netflix-movie-rating-dataset?select=Netflix_Dataset_Rating.csv)
    - Save the CSV file as `Netflix_Dataset_Rating.csv` in the same folder as the notebook (`nmf_recommender.ipynb`).
 
-## **Run the Notebook**
+## Run the Notebook
 
 1. Install required packages:
 ```bash
@@ -28,12 +28,9 @@ pip install pandas numpy scikit-learn matplotlib
 jupyter notebook nmf_recommender.ipynb
 ```
 
-3. Make sure the notebook reads the CSV from the **same folder**:
+3. Make sure the notebook reads the CSV from the same folder:
 ```python
-import pandas as pd
-
 df = pd.read_csv("Netflix_Dataset_Rating.csv")
-df.head()
 ```
 
 4. Run all cells to train NMF and generate recommendations.
