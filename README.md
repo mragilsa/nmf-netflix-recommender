@@ -14,7 +14,7 @@ cd nmf-netflix-recommender
 
 2. **Download the dataset from Kaggle:**  
    - [Kaggle link](https://www.kaggle.com/datasets/rishitjavia/netflix-movie-rating-dataset?select=Netflix_Dataset_Rating.csv)
-   - Save the CSV file as `Netflix_Dataset_Rating.csv` in the `data/` folder.  
+   - Save the CSV file as `Netflix_Dataset_Rating.csv` in the same folder as the notebook (`nmf_recommender.ipynb`).
 
 ## **Run the Notebook**
 
