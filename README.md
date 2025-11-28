@@ -28,9 +28,12 @@ pip install pandas numpy scikit-learn matplotlib
 jupyter notebook nmf_recommender.ipynb
 ```
 
-3. Make sure the notebook reads the CSV from the `data/` folder:
+3. Make sure the notebook reads the CSV from the **same folder**:
 ```python
-df = pd.read_csv("data/netflix_ratings.csv")
+import pandas as pd
+
+df = pd.read_csv("Netflix_Dataset_Rating.csv")
+df.head()
 ```
 
 4. Run all cells to train NMF and generate recommendations.
