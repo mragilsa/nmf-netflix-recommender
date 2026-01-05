@@ -7,15 +7,11 @@ Netflix Movie Rating Dataset (from the Netflix Prize competition)
 
 Source: [Kaggle – Netflix Movie Rating Dataset](https://www.kaggle.com/datasets/rishitjavia/netflix-movie-rating-dataset?select=Netflix_Dataset_Rating.csv)
 
-Movies file:
-- Movie_ID
-- Year
-- Name
+Movie File Description:
+- Movie File Contains Movie_ID, Name, Year
 
-Ratings file:
-- User_ID
-- Rating (1-5)
-- Movie_ID
+Rating File Description:
+- Rating File Contains Movie_ID, User_ID, Rating (1 - 5)
 
 ## Evaluation Metrics
 - RMSE: measures squared prediction error magnitude
