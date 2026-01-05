@@ -2,16 +2,10 @@
 
 This repository implements a movie recommender system using Collaborative Filtering with Non-negative Matrix Factorization (NMF) on the Netflix Movie Rating Dataset.  
 
-## Clone Repository
-```bash
-git clone https://github.com/mragilsa/nmf-netflix-recommender.git
-```
-```
-cd nmf-netflix-recommender
-```
-
 ## Dataset
 Netflix Movie Rating Dataset (from the Netflix Prize competition)
+
+Source: [Kaggle – Netflix Movie Rating Dataset](https://www.kaggle.com/datasets/rishitjavia/netflix-movie-rating-dataset?select=Netflix_Dataset_Rating.csv)
 
 Movies file:
 - Movie_ID
@@ -27,6 +21,14 @@ Ratings file:
 - RMSE: measures squared prediction error magnitude
 - MAE: measures average absolute prediction error
 - NDCG@10: evaluates ranking quality of top-10 recommendations
+
+## Clone Repository
+```bash
+git clone https://github.com/mragilsa/nmf-netflix-recommender.git
+```
+```
+cd nmf-netflix-recommender
+```
 
 ## Generate Recommendations
 Example usage to generate top-N movie recommendations for a user:
